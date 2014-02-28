@@ -1,0 +1,152 @@
+<!DOCTYPE css>
+/*
+body {
+  font-family: Arial, Verdana, sans-serif;}
+h1, h2, .vassar {
+  color: #ee3e80;
+  font-family: 'Raleway', sans-serif;
+  font-size: 160%;
+  text-transform: uppercase;
+  padding is top, left, bottom, right
+  padding: 0% 1% 0 1%;
+}
+p{
+  color: #665544;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 90%;
+}
+h1 a, h2 a, .vassar {
+	text-decoration: none;
+	color:#000000;
+  border-bottom: none;
+}
+h3 {
+	font-family: sans-serif;
+  margin: 1% 0px 1% 0px;
+  font-size: 110%;
+}
+a {
+	color:#0AFF0A;
+  text-decoration: none;
+  border-bottom: 1px #0AFF0A dotted;
+} 
+.vassar:before {
+  content: "At ";
+  (" attr(vassar.edu)")
+}
+
+.masthead:(IRRL) {
+	display: none;
+}
+*/
+.l-header h1 a, .l-header h1 a:visited {
+    color: #AA3F28;
+    position: absolute;
+    height: 100px;
+    width: 525px;
+    border: medium none;
+    text-indent: -9999px;
+}
+
+a:link {
+    color: #260;
+    border-bottom: 1px dotted #AAA;
+}
+a {
+    color: #260;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #AAA;
+}
+a {
+    background: none repeat scroll 0% 0% transparent;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+} 
+.l-header h1 {
+    color: #00AE92;
+    font-size: 2.8em;
+    font-weight: normal;
+    line-height: 110%;
+} 
+h1 {
+    font: bold 1.9em/1em Georgia,"Dejavu Serif","Bitstream Vera Serif","Times New Roman",serif;
+    color: #A14723;
+} 
+abbr, address, article, aside, audio, b, body, blockquote, button, caption, canvas, cite, code, del, details, dd, dfn, div, dl, dt, em, figcaption, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, mark, menu, nav, object, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, time, tfoot, th, thead, tr, var, video {
+    font-size: 100%;
+    font-weight: normal;
+} 
+body {
+    color: #333;
+}
+body {
+    font-family: Verdana,"Lucida Grande",Lucida,"Lucida Sans Unicode",Verdana,Arial,sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+body {
+    text-align: left;
+}
+.l-footer {
+    background: url('../images/footer-bg.jpg') no-repeat scroll left bottom transparent;
+}
+.l-footer {
+    clear: both;
+    padding: 10px 0px 110px;
+}
+abbr, address, article, aside, audio, b, body, blockquote, button, caption, canvas, cite, code, del, details, dd, dfn, div, dl, dt, em, figcaption, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, mark, menu, nav, object, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, time, tfoot, th, thead, tr, var, video {
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0px;
+    outline: 0px none;
+    padding: 0px;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+abbr, address, article, aside, audio, b, body, blockquote, button, caption, canvas, cite, code, del, details, dd, dfn, div, dl, dt, em, figcaption, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, mark, menu, nav, object, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, time, tfoot, th, thead, tr, var, video {
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0px;
+    outline: 0px none;
+    padding: 0px;
+    vertical-align: baseline;
+}
+.l-footer {
+    background: url('../images/footer-bg.jpg') no-repeat scroll left bottom transparent;
+}
+
+a:link {
+    color: #260;
+    border-bottom: 1px dotted #AAA;
+}
+.hiddenvisually {
+    display: none;
+}
+a {
+    color: #260;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #AAA;
+}
+a {
+    background: none repeat scroll 0% 0% transparent;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+.masthead {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
