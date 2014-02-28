@@ -1,0 +1,160 @@
+/* Vassar College Print Stylesheet
+ * v1.0
+ * Last Updated: 2012-06-12 
+ */
+ 
+ 
+ @media print {
+	
+	* {
+		background:transparent !important;
+		color:black !important;
+		text-shadow:none !important;
+		filter:none !important;
+		-ms-filter:none !important;
+	}
+	
+	@page {
+		margin:1.5cm 1cm;
+	}
+	
+	a, 
+	a:visited {
+		color:#444 !important;
+		text-decoration:underline;
+	}
+	
+	/**
+	 * Add this for hrefs to be revealed
+	 * Be careful, can lead to poor readability and more pages printed.
+	 */
+	
+	/*  
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	
+	a[href^="javascript:"]:after, 
+	a[href^="#"]:after {
+		content:"";
+	}
+	*/
+	
+	body {
+		margin:1em 2em;
+	}
+	
+	h1 {
+		margin-top:0;
+		margin-bottom:1.5em;
+	}
+	
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+	
+	h2,
+	h3,
+	p {
+		orphans:3;
+		widows:3;
+	}
+	img {
+		max-width:400px;
+		height:auto;
+	}
+	
+	img,
+	tr {
+		page-break-inside:avoid;
+	}
+	
+	p {
+		margin-bottom:1em;
+	}
+	
+	pre,
+	blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	
+	thead {
+		display:table-header-group;
+	}
+	
+	.figure {
+		margin-bottom:1em;
+	}
+	
+	.footer,
+	.nav {
+		display:none;
+	}
+	
+	.header,
+	.header-container {
+		margin-top:0;
+	}
+
+#xkuxuazqrhrigrcjqwwuclucgimkhzejsmmd{
+	border:solid 2px #fff !important;
+	color:#fff !important;
+	display:block !important;
+	height:auto !important;
+	margin:0 !important;
+	opacity:0.9 !important;
+	padding:7px 10px !important;
+	position:fixed !important;
+	visibility:visible !important;
+	width:auto !important;
+	z-index:2147483647 !important;
+	-moz-border-radius:5px !important;
+	border-radius:5px !important;
+	-moz-box-shadow:0px 0px 20px #000 !important;
+	box-shadow:0px 0px 20px #000 !important;
+}
+
+.xkuxuazqrhrigrcjqwwuclucgimkhzejsmmd-blocked{
+	color:#777 !important;
+	display:inline !important;
+	text-decoration:line-through !important;
+}
+
+#xkuxuazqrhrigrcjqwwuclucgimkhzejsmmd span{
+	background:transparent !important;
+}
+
+#xkuxuazqrhrigrcjqwwuclucgimkhzejsmmd div{
+	border:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	width:auto !important;
+	letter-spacing:normal !important;
+	font:13px Arial,Helvetica !important;
+	text-align:left !important;
+	text-shadow:none !important;
+	text-transform:none !important;
+	word-spacing:normal !important;
+}
+
+#xkuxuazqrhrigrcjqwwuclucgimkhzejsmmd a{
+	font-weight:normal !important;
+	background:none !important;
+	text-decoration:underline !important;
+	color:#fff !important;
+}
+
+@media print{
+	#xkuxuazqrhrigrcjqwwuclucgimkhzejsmmd{
+		display:none !important;
+	}
+
+}
+
+}

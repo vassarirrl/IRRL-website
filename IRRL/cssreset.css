@@ -1,0 +1,109 @@
+/* 
+ * Vassar College Reset Stylesheet
+ * Based on html5doctor.com (http://html5doctor.com/html-5-reset-stylesheet/)
+ * v1.0
+ * Last Updated: 2012-06-12 
+ */
+ 
+abbr, address, article, aside, audio, b, body, blockquote, button, caption, canvas, cite, code, del, details, dd, dfn, div, dl, dt, em, figcaption, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, mark, menu, nav, object, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, time, tfoot, th, thead, tr, var, video {
+   background:transparent;
+   border:0;
+   font-size:100%;
+   font-weight:normal; /* I added this one */
+   margin:0;
+   outline:0;
+   padding:0;
+   vertical-align:baseline;
+}
+
+a {
+   background:transparent;
+	font-size:100%;
+   margin:0;
+   padding:0;
+   vertical-align:baseline;   
+}
+
+/* :hover hack for IE8 if no a:hover styles declared */
+a:hover, 
+a:focus { 
+	cursor:pointer; 
+}
+
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+menu, 
+nav, 
+section {
+   display:block;
+}
+
+b,	/* b for backwards compatibility or WYSIWYG insertion */
+strong {
+	font-weight:bold;
+}
+
+blockquote,
+q {
+	quotes:none;
+}
+
+	blockquote:before,
+	blockquote:after,
+	q:before,
+	q:after {
+		content: '';
+		content: none;
+	}
+
+del {
+   text-decoration: line-through;
+}
+
+dfn[title] { 
+	border-bottom:1px dotted;
+   cursor:help;
+}
+
+em,
+i { /* i for backwards compatibility or WYSIWYG insertion */
+   font-style:italic;
+}
+
+	em em {
+		font-style:normal;
+	}
+
+hr {
+	border-style:solid;
+	border-width:1px;
+	display:block; 
+	height:1px; 
+	margin:1em 0;
+	padding:0; 
+}
+
+input, 
+select {
+   vertical-align:middle;
+}
+
+ins {
+   text-decoration:none;
+}
+
+mark {
+   font-style:italic;
+   font-weight:bold;
+}
+
+table {
+   border-collapse:collapse;
+   border-spacing:0;
+}
