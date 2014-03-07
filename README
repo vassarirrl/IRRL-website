@@ -1,6 +1,13 @@
 This is a test -- first commit by Rebecca 
 
 
-Notes:
+HOW TO HAVE AN UP-TO-DATE VERSION OF THIS PROJECT ON YOUR COMPUTER:
 
-IRRL is the definitive cloned CSS page, IRRLnick is from my original attempt at hard-coding the website. --Nick
+-Download/set-up Git via this link:
+https://help.github.com/articles/set-up-git
+
+-Make a folder where you want to store the project
+-Navigate to that folder via the terminal 
+-Enter in terminal "git clone https://github.com/vassarirrl/IRRL-website.git"
+
+You should now have an up-to-date clone of the website. I will eventually explain more fully how to edit/make sure you didn't overwrite other people's files when you commit your changes, but you can safely fiddle with the clone without causing any problems. 
