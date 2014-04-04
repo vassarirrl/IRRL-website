@@ -213,7 +213,7 @@ hr {
 /* General color ----------------------------------------------- */
 
 html { 
-    background: #fff url(header-bg3.gif) repeat-x;
+    background: #fff url(header-bg5-heighten.gif) repeat-x;
     background-color: #FFF;
     background-repeat: repeat-x;
     background-attachment: scroll;
@@ -425,7 +425,7 @@ th {
 
 .l-header {
     position: relative;
-    background: transparent url(IRRLHeader.gif) top left no-repeat;
+    background: transparent url(header3.gif) top left no-repeat;
 }
 
 .l-header h1 {
@@ -474,11 +474,11 @@ th {
 
 .vcard {
     padding-top: 30px;
-    background: transparent url(../images/footer-electrode.jpg) left top no-repeat;
+    background: transparent url(footer-electrode.jpg) left top no-repeat;
 }
 
 .l-footer {
-    background: transparent url(../images/footer-bg.jpg) left bottom no-repeat;
+    background: transparent url(footer-bg3.jpg) left bottom repeat-x;
 }
 
 .l-footer ul {
